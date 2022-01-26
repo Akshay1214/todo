@@ -17,8 +17,8 @@ spec:
     spec:
       containers:
         - name: flaskapi
-          image: demo-test
-          imagePullPolicy: Never
+          image: akshay143/flaskapi:tagname
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
           env:
